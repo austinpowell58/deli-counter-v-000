@@ -12,5 +12,4 @@ def line(array)
     message
   end 
 end 
-end 
     
