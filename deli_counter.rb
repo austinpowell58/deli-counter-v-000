@@ -6,7 +6,7 @@ def line(katz_deli)
   else 
     counter = 1 
     message = "The line is currently:"
-    array.each do |name|
+    katz_deli.each do |name|
       message << "#{counter}. #{name}"
     end 
     puts message
