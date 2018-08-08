@@ -8,4 +8,9 @@ def line(array)
     message = "The line is currently:"
     array.each do |name|
       message << "#{counter}. #{name}"
+    end 
+    message
+  end 
+end 
+end 
     
