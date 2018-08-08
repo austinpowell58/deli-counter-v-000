@@ -5,6 +5,7 @@ def line(array)
     "The line is currently empty."
   else 
     counter = 1 
+    message = "The line is currently:"
     array.each do |name|
-    "The line is currently:"
+      message << "#{counter}. #{name}"
     
